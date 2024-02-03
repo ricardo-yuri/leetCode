@@ -1,10 +1,5 @@
 package com.ryuri.easy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.IntStream;
-
 public class TwoSum {
 
     public static int[] twoSum(int[] nums, int target) {
