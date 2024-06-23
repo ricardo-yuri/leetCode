@@ -1,5 +1,4 @@
 import com.ryuri.easy.PalindromeNumber;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -20,5 +19,10 @@ public class PalindromeNumberTest {
     @Test
     public void validReturnFalse01() {
         assertFalse(PalindromeNumber.isPalindrome(10));
+    }
+
+    @Test
+    public void validReturnFalse0() {
+        assertTrue(PalindromeNumber.isPalindrome(0));
     }
 }

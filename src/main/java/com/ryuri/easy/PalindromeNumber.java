@@ -4,11 +4,11 @@ public class PalindromeNumber {
 
     public static boolean isPalindrome(int x) {
         String number = String.valueOf(x);
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int i = number.length() - 1; i >= 0; i--) {
             char digito = number.charAt(i);
-            result = result.concat(String.valueOf(digito));
+            result.append(Character.toString(digito));
         }
-        return number.equals(result);
+        return number.contentEquals(result);
     }
 }
