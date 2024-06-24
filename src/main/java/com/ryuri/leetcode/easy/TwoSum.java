@@ -1,4 +1,4 @@
-package com.ryuri.easy;
+package com.ryuri.leetcode.easy;
 
 public class TwoSum {
 

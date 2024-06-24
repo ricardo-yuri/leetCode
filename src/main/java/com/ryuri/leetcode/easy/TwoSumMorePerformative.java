@@ -1,4 +1,4 @@
-package com.ryuri.easy;
+package com.ryuri.leetcode.easy;
 
 import java.util.HashMap;
 import java.util.Map;

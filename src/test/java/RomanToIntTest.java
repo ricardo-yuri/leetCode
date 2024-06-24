@@ -1,4 +1,4 @@
-import com.ryuri.easy.RomanToInt;
+import com.ryuri.leetcode.easy.RomanToInt;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

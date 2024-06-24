@@ -1,4 +1,4 @@
-import com.ryuri.easy.PalindromeNumber;
+import com.ryuri.leetcode.easy.PalindromeNumber;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

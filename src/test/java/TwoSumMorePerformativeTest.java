@@ -1,5 +1,4 @@
-import com.ryuri.easy.TwoSum;
-import com.ryuri.easy.TwoSumMorePerformative;
+import com.ryuri.leetcode.easy.TwoSumMorePerformative;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
