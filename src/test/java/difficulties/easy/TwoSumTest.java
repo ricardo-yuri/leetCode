@@ -1,4 +1,6 @@
-import com.ryuri.easy.TwoSum;
+package difficulties.easy;
+
+import com.ryuri.difficulties.easy.TwoSum;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

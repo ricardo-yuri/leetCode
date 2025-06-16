@@ -1,5 +1,7 @@
-import com.ryuri.easy.TwoSum;
-import com.ryuri.easy.TwoSumMorePerformative;
+package difficulties.easy;
+
+import com.ryuri.difficulties.easy.TwoSumMorePerformative;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -16,6 +18,7 @@ public class TwoSumMorePerformativeTest {
 
         int[] result = TwoSumMorePerformative.twoSum(listIntOne, 9);
 
+        Assertions.assertNotNull(result);
         assertEquals(2, Arrays.stream(result).count());
         assertArrayEquals(listResult, result);
     }
@@ -27,6 +30,7 @@ public class TwoSumMorePerformativeTest {
 
         int[] result = TwoSumMorePerformative.twoSum(listInt, 6);
 
+        Assertions.assertNotNull(result);
         assertEquals(2, Arrays.stream(result).count());
         assertArrayEquals(listResult, result);
     }
@@ -38,6 +42,7 @@ public class TwoSumMorePerformativeTest {
 
         int[] result = TwoSumMorePerformative.twoSum(listInt, 6);
 
+        Assertions.assertNotNull(result);
         assertEquals(2, Arrays.stream(result).count());
         assertArrayEquals(listResult, result);
     }

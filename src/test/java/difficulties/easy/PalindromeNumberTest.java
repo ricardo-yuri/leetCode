@@ -1,4 +1,6 @@
-import com.ryuri.easy.PalindromeNumber;
+package difficulties.easy;
+
+import com.ryuri.difficulties.easy.PalindromeNumber;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

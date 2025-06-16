@@ -1,4 +1,6 @@
-import com.ryuri.easy.RomanToInt;
+package difficulties.easy;
+
+import com.ryuri.difficulties.easy.RomanToInt;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

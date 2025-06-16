@@ -1,4 +1,4 @@
-package com.ryuri.easy;
+package com.ryuri.difficulties.easy;
 
 public class TwoSum {
 
